@@ -1,0 +1,115 @@
+.topblock {
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+}
+
+.slide_3 {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.comment__item {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #E2E2E2;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    width: 370px;
+    height: 180px;
+}
+
+.triangle {
+    position: relative;
+    display: flex;
+}
+
+.triangle__down_1, .triangle__down_2, .triangle__down_3{
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 25px solid #E2E2E2;
+}
+
+.triangle__down_1 {
+    margin-left: 80px;
+}
+
+.triangle__down_2 {
+    margin-left: 360px;
+}
+
+
+.triangle__down_3 {
+    margin-left: 360px;
+}
+
+.names {
+    position: relative;
+    display: flex;
+    margin-left: -20px;
+}
+.names__item_1, .names__item_2, .names__item_3 {
+    margin-top: 50px;
+    display: flex;
+}
+
+.names__item_2 {
+    margin-left: 75px;
+}
+
+.names__item_3 {
+    margin-left: 125px;
+}
+
+.img {
+    float: left;
+}
+
+.name {
+    margin-bottom: 140px;
+    margin-left: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 700;
+}
+
+.job {
+    display: flex;
+    justify-content: left;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.job__item_1, .job__item_2, .job__item_3 {
+    margin-top: -115px;
+    margin-left: 110px;
+}
+
+.job__item_2 {
+    margin-left: 330px;
+}
+
+.job__item_3 {
+    margin-left: 333px;
+}
+
+
+
