@@ -1,7 +1,7 @@
 .content {
     width: 1170px;
     margin: 0 auto;
-    padding-top: 80px;
+    padding-top: 109px;
 }
 
 .tabs {
@@ -38,6 +38,7 @@
      border-bottom: 2px solid white;
      top: 2px;
      z-index: 2;
+    outline: none;
 }
 
 h3 {
@@ -49,7 +50,7 @@ h3 {
     padding-left: 100px;
 }
 
-img {
+.liberty {
     float: right;
     margin-top: -122px;
     margin-right: -2px;
