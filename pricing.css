@@ -28,6 +28,12 @@
     width: 330px;
 }
 
+.box__column:hover {
+    box-shadow: 0 0 10px -3px #86878B;
+    margin-top: -25px;
+    align-self: start;
+}
+
 .box__top {
     display: flex;
     justify-content: center;
@@ -68,18 +74,4 @@
     font-size: 18px;
     color: rgba(255, 255, 255, 0.5);
     flex-grow: 1;
-}
-
-.box__column_1 {
-    align-self: end;
-
-}
-.box__column_2 {
-    align-self: start;
-    box-shadow: 0 0 10px -3px #86878B;
-    margin-bottom: 25px;
-}
-
-.box__column_3 {
-    align-self: end;
 }
