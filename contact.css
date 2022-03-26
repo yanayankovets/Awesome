@@ -1,6 +1,6 @@
 .slide_5 {
     width: 1170px;
-    margin-top: 480px;
+    margin-top: 500px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -8,7 +8,8 @@
 .subtitle_white {
     color: white;
     font-size: 18px;
-
+    font-family: Raleway, sans-serif;
+    line-height: 21px;
 }
 
 .contact__items {
@@ -21,7 +22,7 @@
     flex-direction: column;
 }
 
-input {
+.input {
     border: none;
     border-bottom: 1px solid #BDBDBD;
     width: 571px;
@@ -37,8 +38,6 @@ input {
     font-family: "Open Sans", sans-serif;
     color: #BDBDBD;
     font-size: 16px;
-    word-wrap: break-word;
-
 }
 
 .contact__item_2 {
@@ -76,10 +75,15 @@ footer {
 .icons {
     display: flex;
     justify-content: center;
-    padding-top: 125px;
+    padding-top: 40px;
 }
+
+.icons__item {
+    padding-left: 30px;
+}
+
 .icons__item:hover {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .themes {
@@ -87,8 +91,7 @@ footer {
     font-size: 18px;
     color: rgba(255, 255, 255, 0.5);
     display: flex;
-    text-align: center;
-    align-items: center;
     justify-content: center;
+    margin-top: 28px;
 }
 
