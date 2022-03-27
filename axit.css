@@ -2,7 +2,7 @@ header {
     background-color: black;
     height: 75px;
     display: flex;
-    width: 100%;
+    width: 1510px;
 
 }
 
@@ -14,7 +14,7 @@ header {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     color: white;
-    margin-left: 550px;
+    margin-left: 480px;
 }
 
 .header__text {
@@ -32,10 +32,9 @@ header {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("assets/main_image.svg");
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
     display: flex;
     height: 1026px;
-    width: 100%;
+    width: 1510px;
 }
 
 .main_page {
@@ -135,8 +134,7 @@ header {
 
 .wrap_1 {
     background-color: #F8EFEF;
-    margin-top: 1026px;
-    width: 100%;
+    width: 1510px;
 }
 
 .social {
