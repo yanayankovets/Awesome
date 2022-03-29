@@ -1,7 +1,7 @@
 .content {
     width: 1170px;
     margin: 0 auto;
-    padding-top: 80px;
+    padding-top: 109px;
 }
 
 .tabs {
@@ -36,8 +36,9 @@
      position: relative;
      height: 50px;
      border-bottom: 2px solid white;
-     top: 2px;
+     top: 1px;
      z-index: 2;
+    outline: none;
 }
 
 h3 {
@@ -49,7 +50,7 @@ h3 {
     padding-left: 100px;
 }
 
-img {
+.tabs_image {
     float: right;
     margin-top: -122px;
     margin-right: -2px;
@@ -76,4 +77,61 @@ button {
     background: #EC7979;
     border: none;
     cursor: pointer;
+}
+
+.button_1:hover {
+    box-shadow:0 0 10px #000;
+}
+
+
+
+@media (max-width: 1024px) {
+    .content {
+        width: 992px;
+        margin: 0 auto;
+        padding-top: 89px;
+    }
+
+    .tabs {
+        margin: 0 16px 50px 16px;
+    }
+
+    .tabs_image {
+        width: 40%;
+        height: 100%;
+        padding-top: 31px;
+    }
+
+    .tabs__item {
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .tabs__block {
+        height: 386px;
+    }
+
+    #tab_01 {
+        height: 40px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 32px;
+        padding-top: 11px;
+        padding-left: 84px;
+    }
+
+    p {
+        font-size: 14px;
+        padding: 30px 20px 0 84px;
+        line-height: 16px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 14px 60px;
+        margin-left: 84px;
+        margin-top: 20px;
+    }
 }
