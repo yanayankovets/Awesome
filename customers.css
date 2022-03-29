@@ -112,4 +112,80 @@
 }
 
 
+@media (max-width: 1024px) {
+    .topblock {
+        width: 1024px;
+        font-size: 24px;
+    }
 
+    .slide_3 {
+        width: 1024px;
+        margin: 0 16px;
+    }
+
+    .comment {
+        margin-top: 60px;
+    }
+
+    .comment__item {
+        font-size: 14px;
+        line-height: 16px;
+        width: 317px;
+    }
+
+    .triangle__down_1 {
+        margin-left: 75px;
+    }
+
+    .triangle__down_2 {
+        margin-left: 320px;
+    }
+
+
+    .triangle__down_3 {
+        margin-left: 330px;
+    }
+
+    .names__item_1, .names__item_2, .names__item_3 {
+        margin-top: 46px;
+        display: flex;
+    }
+
+    .names__item_2 {
+        margin-left: 70px;
+    }
+
+    .names__item_3 {
+        margin-left: 115px;
+    }
+
+    .name {
+        margin-bottom: 140px;
+        margin-left: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        line-height: 33px;
+        font-weight: 700;
+    }
+
+    .job {
+        display: flex;
+        justify-content: left;
+        font-family: Raleway, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .job__item_1, .job__item_2, .job__item_3 {
+        margin-top: -125px;
+        margin-left: 110px;
+    }
+
+    .job__item_2 {
+        margin-left: 305px;
+    }
+
+    .job__item_3 {
+        margin-left: 310px;
+    }
+}
