@@ -81,3 +81,68 @@
     font-size: 18px;
     line-height: 21px;
 }
+
+
+
+@media (max-width: 1024px) {
+    .topblock {
+        width: 1024px;
+        font-size: 24px;
+        padding-top: 50px;
+    }
+
+    .separator {
+        width: 142px;
+        margin-top: 40px;
+    }
+
+    .subtitle {
+        width: 1024px;
+        padding-top: 20px;
+        font-size: 14px;
+    }
+
+    .container {
+        width: 1024px;
+        padding-top: 65px;
+        padding-bottom: 60px;
+    }
+
+    .ellipse {
+        position: relative;
+        text-align: center;
+        left: 130px;
+    }
+
+    .image1 {
+        display: flex;
+        position: absolute;
+        padding-left: 139px;
+        padding-top: 10px;
+    }
+
+    .image2 {
+        display: flex;
+        position: absolute;
+        padding-left: 143px;
+        padding-top: 23px;
+    }
+
+    .image3 {
+        display: flex;
+        position: absolute;
+        padding-left: 157px;
+        padding-top: 15px;
+    }
+
+    .text {
+        font-size: 18px;
+        padding: 20px 40px 10px 90px;
+    }
+
+    .desc {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 0 20px;
+    }
+}
