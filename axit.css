@@ -2,7 +2,7 @@ header {
     background-color: black;
     height: 75px;
     display: flex;
-    width: 100%;
+    width: 1510px;
 }
 
 .logo {
@@ -13,7 +13,7 @@ header {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     color: white;
-    margin-left: 550px;
+    margin-left: 480px;
 }
 
 .header__text {
@@ -33,8 +33,8 @@ header {
     background-size: cover;
     margin: 0;
     position: absolute;
-    width: 100%;
     height: 1026px;
+    width: 1510px;
 }
 
 .main_page {
@@ -79,7 +79,7 @@ header {
 }
 
 .button_4:hover {
-    box-shadow:0 0 10px white;
+    box-shadow: 0 0 10px white;
 }
 
 .registr {
@@ -135,7 +135,7 @@ header {
 .wrap_1 {
     width: auto;
     background-color: #F8EFEF;
-    margin-top: 1026px;
+    margin-top: 1510px;
 }
 
 .social {
@@ -175,4 +175,110 @@ header {
 
 .social__item:hover {
     margin-bottom: 20px;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    header {
+        height: 75px;
+        width: 1024px;
+    }
+
+    .header {
+        font-size: 14px;
+        margin-left: 150px;
+    }
+
+    .header__text {
+        margin: 0 30px;
+    }
+
+    .wrap_0 {
+        height: 768px;
+        width: 1024px;
+    }
+
+    .main_page {
+        width: 1024px;
+        margin: 150px auto 0 110px;
+    }
+
+    .main_text {
+        font-size: 32px;
+        line-height: 42px;
+        margin-top: 50px;
+    }
+
+    .main_image {
+        width: 45%;
+    }
+
+    .main_separator {
+        width: 115px;
+    }
+
+    .subtitle_white {
+        padding-top: 31px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .button_4 {
+        width: 183px;
+        height: 50px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .registr {
+        margin-left: 20px;
+        width: 398px;
+        height: 450px;
+    }
+
+    .registr__item {
+        width: 298px;
+        height: 45px;
+        padding-top: 30px;
+        font-size: 14px;
+    }
+
+    .main_title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .button_5 {
+        width: 398px;
+        height: 60px;
+    }
+
+    .wrap_1 {
+        width: 1024px;
+    }
+
+    .social {
+        width: 1024px;
+        height: 105px;
+        margin-top: -260px;
+    }
+
+    .social_media {
+        margin-left: 20px;
+    }
+
+    .social_text {
+        font-size: 18px;
+    }
+
+    .social_subtitle {
+        font-size: 14px;
+        width: 402px;
+    }
+
+    .social__item {
+        width: 30%;
+        margin-left: 14px;
+    }
 }
