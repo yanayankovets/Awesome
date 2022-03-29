@@ -83,3 +83,40 @@
 .box__column_3 {
     align-self: end;
 }
+
+
+
+@media (max-width: 1024px) {
+    .wrap {
+        width: 1024px;
+    }
+
+    .topblock {
+        width: 1024px;
+        font-size: 24px;
+    }
+
+    .slide_2 {
+        width: 1024px;
+        padding-bottom: 10px;
+    }
+
+    .box {
+        margin: 50px 14px;
+    }
+
+    .box__column {
+        width: 318px;
+    }
+
+    .box__top {
+        padding: 10px 0;
+    }
+
+    .box__item {
+        height: 44px;
+        color: #86878B;
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+    }
+}
