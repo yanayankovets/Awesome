@@ -180,6 +180,7 @@ header {
 
 
 @media only screen and (max-width: 1024px) {
+
     header {
         height: 75px;
         width: 1024px;
@@ -200,7 +201,7 @@ header {
     }
 
     .main_page {
-        width: 1024px;
+        width: 992px;
         margin: 150px auto 0 110px;
     }
 
