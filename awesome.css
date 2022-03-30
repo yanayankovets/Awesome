@@ -93,7 +93,7 @@
     }
 
     .topblock {
-        width: 1024px;
+        width: 992px;
         font-size: 24px;
         padding-top: 50px;
     }
@@ -104,13 +104,13 @@
     }
 
     .subtitle {
-        width: 1024px;
+        width: 992px;
         padding-top: 20px;
         font-size: 14px;
     }
 
     .container {
-        width: 1024px;
+        width: 992px;
         padding-top: 65px;
         padding-bottom: 60px;
     }
