@@ -8,7 +8,8 @@
 .subtitle_white {
     color: white;
     font-size: 18px;
-
+    font-family: Raleway, sans-serif;
+    line-height: 21px;
 }
 
 .contact__items {
@@ -37,8 +38,6 @@ input {
     font-family: "Open Sans", sans-serif;
     color: #BDBDBD;
     font-size: 16px;
-    word-wrap: break-word;
-
 }
 
 .contact__item_2 {
@@ -71,15 +70,21 @@ input {
 footer {
     background-color: black;
     height: 164px;
+    width: 1510px;
 }
 
 .icons {
     display: flex;
     justify-content: center;
-    padding-top: 125px;
+    padding-top: 40px;
 }
+
+.icons__item {
+    padding-left: 30px;
+}
+
 .icons__item:hover {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .themes {
@@ -87,8 +92,70 @@ footer {
     font-size: 18px;
     color: rgba(255, 255, 255, 0.5);
     display: flex;
-    text-align: center;
-    align-items: center;
     justify-content: center;
+    margin-top: 28px;
+}
+
+
+@media (max-width: 1024px) {
+
+    body {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slide_5 {
+        width: 992px;
+        margin-top: 480px;
+    }
+
+    .subtitle_white {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    input {
+        width: 486px;
+        padding-top: 60px;
+        padding-bottom: 16px;
+    }
+
+    ::placeholder {
+
+        font-size: 14px;
+    }
+
+    .contact__item_2 {
+        margin-left: 30px;
+    }
+
+    #item_2 {
+        padding-bottom: 227px;
+    }
+
+    .button_3 {
+        width: 318px;
+        height: 58px;
+        font-size: 18px;
+        margin: 50px auto;
+    }
+
+    footer {
+        background-color: black;
+        height: 164px;
+        width: 1024px;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }
+
+    .themes {
+        font-size: 14px;
+    }
 }
 
