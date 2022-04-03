@@ -3,10 +3,6 @@ header {
     height: 75px;
     display: flex;
     width: 1510px;
-<<<<<<< HEAD
-=======
-
->>>>>>> develop
 }
 
 .logo {
@@ -34,15 +30,13 @@ header {
 .wrap_0 {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("assets/main_image.svg");
     background-size: cover;
-<<<<<<< HEAD
     margin: 0;
     position: absolute;
-=======
     background-repeat: no-repeat;
     display: flex;
->>>>>>> develop
     height: 1026px;
     width: 1510px;
+    top: 75px;
 }
 
 .main_page {
@@ -142,11 +136,8 @@ header {
 
 .wrap_1 {
     background-color: #F8EFEF;
-<<<<<<< HEAD
-    margin-top: 1510px;
-=======
+    margin-top: 1025px;
     width: 1510px;
->>>>>>> develop
 }
 
 .social {
@@ -219,7 +210,6 @@ header {
     .main_text {
         font-size: 32px;
         line-height: 42px;
-        margin-top: 50px;
     }
 
     .main_image {
@@ -241,6 +231,8 @@ header {
         height: 50px;
         font-size: 18px;
         margin-top: 20px;
+        margin-left: -3px;
+        padding: 5px 15px;
     }
 
     .registr {
@@ -249,10 +241,10 @@ header {
         height: 450px;
     }
 
+
     .registr__item {
         width: 298px;
         height: 45px;
-        padding-top: 30px;
         font-size: 14px;
     }
 
@@ -274,6 +266,7 @@ header {
         width: 1024px;
         height: 105px;
         margin-top: -260px;
+        background-color: #F8EFEF;
     }
 
     .social_media {
