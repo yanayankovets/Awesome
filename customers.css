@@ -1,4 +1,4 @@
-.topblock {
+.topblock_3 {
     width: 1170px;
     margin: 0 auto;
     text-align: center;
@@ -109,9 +109,13 @@
     margin-left: 333px;
 }
 
+.points {
+    display: none;
+}
+
 
 @media (max-width: 1024px) {
-    .topblock {
+    .topblock_3 {
         width: 1024px;
         font-size: 24px;
     }
@@ -185,5 +189,105 @@
 
     .job__item_3 {
         margin-left: 280px;
+    }
+
+    .points {
+        display: none;
+    }
+}
+
+
+@media (max-width: 320px) {
+
+    .slide_3 {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .topblock_3 {
+        width: 288px;
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    .comment {
+        display: flex;
+        justify-content: center;
+    }
+
+    .comment__item:first-child {
+        display: none;
+    }
+
+    .comment__item:nth-child(2) {
+        font-size: 14px;
+        line-height: 16px;
+        width: 288px;
+        height: 180px;
+    }
+
+    .comment__item:last-child {
+        display: none;
+    }
+
+    .triangle {
+        position: relative;
+        display: flex;
+    }
+
+    .triangle__down_2 {
+        margin-left: 80px;
+    }
+
+    .triangle__down_1, .triangle__down_3 {
+        display: none;
+    }
+
+    .names {
+        position: relative;
+        display: flex;
+        margin-bottom: -60px;
+    }
+
+   .names__item_2 {
+        margin: 0;
+        display: flex;
+       padding-top: 40px;
+       padding-left: 10px;
+    }
+
+    .names__item_1, .names__item_3 {
+        display: none;
+    }
+
+    .name {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .job {
+        font-size: 13px;
+    }
+
+    .job__item_2 {
+        margin-left: 120px;
+        padding-top: 70px;
+    }
+
+    .job__item_1, .job__item_3 {
+        display: none;
+    }
+
+    .points {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 80px 40px 80px;
+    }
+
+    .radio_button {
+        border: 1px solid #86878B;
+        color: #86878B;
     }
 }

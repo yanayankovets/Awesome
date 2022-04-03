@@ -83,3 +83,39 @@ display: flex;
         font-size: 18px;
     }
 }
+
+
+@media (max-width: 320px) {
+    .wrap_2 {
+        width: 320px;
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("assets/image.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+    }
+
+    .topblock_white {
+        max-width: 320px;
+        font-size: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0 0 0;
+    }
+
+    .slide_4 {
+        width: 320px;
+    }
+
+    .subtitle_white_2 {
+        max-width: 228px;
+        font-size: 14px;
+    }
+
+    .button_2 {
+        width: 287px;
+        height: 50px;
+        font-size: 18px;
+    }
+}

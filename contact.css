@@ -82,10 +82,6 @@ footer {
     padding-left: 30px;
 }
 
-.icons__item {
-    padding-left: 30px;
-}
-
 .icons__item:hover {
     margin-bottom: 15px;
 }
@@ -162,6 +158,62 @@ footer {
 
     .themes {
         font-size: 14px;
+    }
+}
+
+
+@media (max-width: 320px) {
+
+    .slide_5 {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .contact__items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input {
+        width: 288px;
+        padding-top: 60px;
+        padding-bottom: 16px;
+    }
+
+    .contact__item_2 {
+        margin: 0;
+    }
+
+    #item_2 {
+        width: 288px;
+        padding-bottom: 182px;
+    }
+
+    .button_3 {
+        width: 288px;
+        height: 50px;
+    }
+
+    footer {
+        height: 164px;
+        width: 320px;
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    .icons__item {
+        width: 45px;
+        height: 25px;
+        padding-left: 8px;
+    }
+
+    .themes {
+        padding-top: 15px;
     }
 }
 

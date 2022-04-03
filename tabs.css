@@ -139,3 +139,66 @@ p {
     }
 }
 
+
+@media (max-width:320px) {
+    .content {
+        width: 320px;
+        margin: -70px auto 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .tabs__items {
+        display: flex;
+        width: 152px;
+        align-items: center;
+    }
+
+    .tabs__item {
+        height: 19px;
+        width: 38px;
+        text-align: center;
+        font-size: 14px;
+        padding: 5px 38px;
+    }
+
+    .tabs__block {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        height: 431px;
+        width: 288px;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+
+    .liberty {
+      display: none;
+    }
+
+    p {
+        font-size: 13px;
+        text-align: center;
+        line-height: 15px;
+        width: 242px;
+        padding: 0 0 29px 0;
+    }
+
+    .button_1 {
+      width: 242px;
+        height: 50px;
+        margin: 0;
+
+    }
+
+}
+
