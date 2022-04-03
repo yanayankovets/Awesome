@@ -3,12 +3,12 @@
     margin: 0 auto;
     text-align: center;
     font-family: Raleway, sans-serif;
-    font-size: 36px;
+    font-size: 28px;
 }
 
 .slide_3 {
     width: 1170px;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
 }
 
 .comment {
@@ -62,27 +62,25 @@
 .names {
     position: relative;
     display: flex;
-    margin-left: -20px;
+    margin-left: 10px;
 }
+
 .names__item_1, .names__item_2, .names__item_3 {
     margin-top: 50px;
     display: flex;
+    align-items: start;
 }
 
 .names__item_2 {
-    margin-left: 75px;
+    margin-left: 100px;
 }
 
 .names__item_3 {
-    margin-left: 125px;
-}
-
-.img {
-    float: left;
+    margin-left: 155px;
 }
 
 .name {
-    margin-bottom: 140px;
+    margin-bottom: 120px;
     margin-left: 30px;
     font-family: "Open Sans", sans-serif;
     font-size: 22px;
