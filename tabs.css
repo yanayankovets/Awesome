@@ -36,7 +36,7 @@
      position: relative;
      height: 50px;
      border-bottom: 2px solid white;
-     top: 2px;
+     top: 1px;
      z-index: 2;
     outline: none;
 }
