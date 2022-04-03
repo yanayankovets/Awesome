@@ -1,6 +1,5 @@
 .slide_5 {
     width: 1170px;
-    margin-top: 480px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -22,7 +21,7 @@
     flex-direction: column;
 }
 
-input {
+.input {
     border: none;
     border-bottom: 1px solid #BDBDBD;
     width: 571px;
@@ -77,12 +76,21 @@ footer {
     display: flex;
     justify-content: center;
     padding-top: 40px;
+<<<<<<< HEAD
 }
 
 .icons__item {
     padding-left: 30px;
 }
 
+=======
+}
+
+.icons__item {
+    padding-left: 30px;
+}
+
+>>>>>>> develop
 .icons__item:hover {
     margin-bottom: 15px;
 }
@@ -94,6 +102,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 28px;
+<<<<<<< HEAD
 }
 
 
@@ -157,5 +166,7 @@ footer {
     .themes {
         font-size: 14px;
     }
+=======
+>>>>>>> develop
 }
 
