@@ -1,7 +1,7 @@
 .content {
     width: 1170px;
     margin: 0 auto;
-    padding-top: 80px;
+    padding-top: 109px;
 }
 
 .tabs {
@@ -36,8 +36,9 @@
      position: relative;
      height: 50px;
      border-bottom: 2px solid white;
-     top: 2px;
+     top: 1px;
      z-index: 2;
+    outline: none;
 }
 
 h3 {
@@ -49,7 +50,7 @@ h3 {
     padding-left: 100px;
 }
 
-img {
+.liberty {
     float: right;
     margin-top: -122px;
     margin-right: -2px;
@@ -65,7 +66,7 @@ p {
     font-weight: normal;
 }
 
-button {
+.button_1 {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     align-items: center;
@@ -76,4 +77,8 @@ button {
     background: #EC7979;
     border: none;
     cursor: pointer;
+}
+
+.button_1:hover {
+    box-shadow:0 0 10px #000;
 }

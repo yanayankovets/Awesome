@@ -75,6 +75,7 @@
     color: rgba(255, 255, 255, 0.5);
     flex-grow: 1;
 }
+<<<<<<< HEAD
 
 
 @media (max-width: 1024px) {
@@ -117,3 +118,5 @@
         font-size: 18px;
     }
 }
+=======
+>>>>>>> develop
