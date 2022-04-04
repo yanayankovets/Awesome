@@ -1,19 +1,21 @@
 header {
+    width: 100%;
     background-color: black;
     height: 75px;
-    display: flex;
-    width: 1510px;
 }
 
-.logo {
-    margin-left: 115px;
+.head {
+    max-width: 1170px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
 }
+
 .header {
     display: flex;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     color: white;
-    margin-left: 480px;
 }
 
 .header__text {
@@ -39,7 +41,7 @@ header {
     background-repeat: no-repeat;
     display: flex;
     height: 1026px;
-    width: 1510px;
+    width: 100%;
     top: 75px;
 }
 
@@ -120,8 +122,8 @@ header {
 }
 
 .button_5 {
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    margin-top: 65px;
     border: 1px solid #EC7979;
     width: 465px;
     height: 60px;
@@ -141,18 +143,17 @@ header {
 .wrap_1 {
     background-color: #F8EFEF;
     margin-top: 1025px;
-    width: 1510px;
+    width: 100%;
 }
 
 .social {
     width: 1170px;
     height: 140px;
     display: flex;
+    margin: 0 auto;
 }
 
-.social_media {
-    margin-left: 170px;
-}
+
 
 .social_text {
     font-family: 'Open Sans', sans-serif;
@@ -174,7 +175,7 @@ header {
 }
 
 .social__item {
-    width: 90px;
+    width: 84px;
     height: 70px;
     margin-left: 18px;
 }
@@ -192,10 +193,13 @@ header {
         width: 1024px;
     }
 
+    .head {
+        justify-content: space-around;
+    }
     .header {
         font-size: 14px;
-        margin-left: 150px;
     }
+
 
     .header__text {
         margin: 0 30px;
@@ -264,6 +268,7 @@ header {
     .button_5 {
         width: 398px;
         height: 60px;
+        margin-top: 90px;
     }
 
     .wrap_1 {
@@ -306,9 +311,12 @@ header {
         width: 320px;
     }
 
+    .head {
+        justify-content: space-between;
+    }
+
     .logo {
-        margin-left: 20px;
-        width: 50%;
+        width: 70%;
     }
     .header {
         display: none;
@@ -321,8 +329,7 @@ header {
     .burger {
         display: block;
         height: 18px;
-        margin-left: 90px;
-        padding-bottom: 10px;
+        margin-top: 15px;
     }
 
     .burger:hover {
